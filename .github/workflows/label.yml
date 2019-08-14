@@ -1,0 +1,10 @@
+name: Add Labels on Push
+on: push
+jobs:
+  add-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: lannonbr/issue-label-manager-action@1.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

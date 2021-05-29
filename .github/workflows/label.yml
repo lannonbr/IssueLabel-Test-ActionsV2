@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: lannonbr/issue-label-manager-action@f3fc93accac8194c3c6a4a781dec5f852819df9b
+      - uses: lannonbr/issue-label-manager-action@6da4caea1561293af81bebd8138e129f90c444df
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

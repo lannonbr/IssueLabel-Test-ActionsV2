@@ -4,7 +4,7 @@ jobs:
   add-labels:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: lannonbr/issue-label-manager-action@847b8a89ca581b97acbbe936e8521f74f11aa584
+      - uses: actions/checkout@v7
+      - uses: lannonbr/issue-label-manager-action@3299c05b2a408078e8a8d4d9684d7b03b4a321d1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

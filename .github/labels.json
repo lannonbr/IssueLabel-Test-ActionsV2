@@ -1,1 +1,4 @@
-[{ "name": "testing", "color": "00FF00" }]
+[
+  { "name": "testing", "color": "00FF00" },
+  { "name": "label-2", "color": "FF0000" }
+]
